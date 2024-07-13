@@ -1,0 +1,12 @@
+[package]
+name = "angus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.7", features = ["derive"] }
+cuts-v2 = { version = "0.1.0", path = "../cuts" }
+eyre = "0.6.12"
+faer = "0.19.1"
+image = "0.25.1"
+rand = "0.8.5"
